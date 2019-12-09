@@ -1,0 +1,5 @@
+files:
+  - source: /docs/strings.json
+    translation: /docs/%two_letters_code%/strings.json
+  - source: /docs/assets/**/*.md
+    translation: /docs/%two_letters_code%/assets/**/%original_file_name%
