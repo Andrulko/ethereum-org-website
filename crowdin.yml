@@ -3,3 +3,35 @@ files:
     translation: /docs/%two_letters_code%/strings.json
   - source: /docs/assets/**/*.md
     translation: /docs/%two_letters_code%/assets/**/%original_file_name%
+  - source: /docs/beginners/**/*.md
+    translation: /docs/%two_letters_code%/beginners/**/%original_file_name%
+  - source: /docs/build/**/*.md
+    translation: /docs/%two_letters_code%/build/**/%original_file_name%
+  - source: /docs/cookie-policy/**/*.md
+    translation: /docs/%two_letters_code%/cookie-policy/**/%original_file_name%
+  - source: /docs/developers/**/*.md
+    translation: /docs/%two_letters_code%/developers/**/%original_file_name%
+  - source: /docs/dot-net/**/*.md
+    translation: /docs/%two_letters_code%/dot-net/**/%original_file_name%
+  - source: /docs/enterprise/**/*.md
+    translation: /docs/%two_letters_code%/enterprise/**/%original_file_name%
+  - source: /docs/golang/**/*.md
+    translation: /docs/%two_letters_code%/golang/**/%original_file_name%
+  - source: /docs/java/**/*.md
+    translation: /docs/%two_letters_code%/java/**/%original_file_name%
+  - source: /docs/javascript/**/*.md
+    translation: /docs/%two_letters_code%/javascript/**/%original_file_name%
+  - source: /docs/languages/**/*.md
+    translation: /docs/%two_letters_code%/languages/**/%original_file_name%
+  - source: /docs/learn/**/*.md
+    translation: /docs/%two_letters_code%/learn/**/%original_file_name%
+  - source: /docs/privacy-policy/**/*.md
+    translation: /docs/%two_letters_code%/privacy-policy/**/%original_file_name%
+  - source: /docs/python/**/*.md
+    translation: /docs/%two_letters_code%/python/**/%original_file_name%
+  - source: /docs/rust/**/*.md
+    translation: /docs/%two_letters_code%/rust/**/%original_file_name%
+  - source: /docs/terms-of-use/**/*.md
+    translation: /docs/%two_letters_code%/terms-of-use/**/%original_file_name%
+  - source: /docs/use/**/*.md
+    translation: /docs/%two_letters_code%/use/**/%original_file_name%
