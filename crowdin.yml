@@ -1,37 +1,57 @@
 files:
   - source: /docs/strings.json
     translation: /docs/%two_letters_code%/strings.json
+    languages_mapping: &anchor
+      two_letters_code:
+        pt-BR: pt-br
   - source: /docs/assets/**/*.md
     translation: /docs/%two_letters_code%/assets/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/beginners/**/*.md
     translation: /docs/%two_letters_code%/beginners/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/build/**/*.md
     translation: /docs/%two_letters_code%/build/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/cookie-policy/**/*.md
     translation: /docs/%two_letters_code%/cookie-policy/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/developers/**/*.md
     translation: /docs/%two_letters_code%/developers/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/dot-net/**/*.md
     translation: /docs/%two_letters_code%/dot-net/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/enterprise/**/*.md
     translation: /docs/%two_letters_code%/enterprise/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/golang/**/*.md
     translation: /docs/%two_letters_code%/golang/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/java/**/*.md
     translation: /docs/%two_letters_code%/java/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/javascript/**/*.md
     translation: /docs/%two_letters_code%/javascript/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/languages/**/*.md
     translation: /docs/%two_letters_code%/languages/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/learn/**/*.md
     translation: /docs/%two_letters_code%/learn/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/privacy-policy/**/*.md
     translation: /docs/%two_letters_code%/privacy-policy/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/python/**/*.md
     translation: /docs/%two_letters_code%/python/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/rust/**/*.md
     translation: /docs/%two_letters_code%/rust/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/terms-of-use/**/*.md
     translation: /docs/%two_letters_code%/terms-of-use/**/%original_file_name%
+    languages_mapping: *anchor
   - source: /docs/use/**/*.md
     translation: /docs/%two_letters_code%/use/**/%original_file_name%
+    languages_mapping: *anchor
